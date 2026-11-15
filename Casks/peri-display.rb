@@ -7,7 +7,7 @@ cask "peri-display" do
   desc "Mac-to-Android display extension"
   homepage "https://github.com/aground5/mac-android-continuity"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Peri Display.app"
 end
