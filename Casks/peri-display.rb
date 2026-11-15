@@ -4,7 +4,7 @@ cask "peri-display" do
 
   url "https://github.com/aground5/mac-android-continuity/releases/download/v#{version}/PeriDisplay-#{version}.zip"
   name "Peri Display"
-  desc "Mac-to-Android display extension"
+  desc "Extend a display to an Android device"
   homepage "https://github.com/aground5/mac-android-continuity"
 
   depends_on macos: :tahoe
