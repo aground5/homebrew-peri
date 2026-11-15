@@ -14,6 +14,6 @@ cask "peri-display" do
   # 공증되지 않은 앱이라 Gatekeeper가 첫 실행을 막는다. 설치 직후 quarantine 속성을 제거한다.
   postflight_steps do
     system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/Peri Display.app"]
+                   args: ["-dr", "com.apple.quarantine", "/Applications/Peri Display.app"]
   end
 end
